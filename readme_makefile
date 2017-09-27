@@ -1,0 +1,6 @@
+Makefile usage:
+
+1.make 
+2.make clean
+3.make run arg=<number_of_childs>
+
