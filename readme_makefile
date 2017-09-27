@@ -1,6 +1,9 @@
 Makefile usage:
 
-1.make 
-2.make clean
-3.make run arg=<number_of_childs>
+1.make exercise2/3 - builds the coresponding exercise.
+2.make clean2/3 - clean the coresponding exercise
+3.make run2 arg=<number_of_childs> - run the second exercise
+4.make run3 - run the third exercise
+5.make - buid all
+6.make clean - clean all output files
 
