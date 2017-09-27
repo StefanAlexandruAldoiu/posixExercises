@@ -1,8 +1,8 @@
-all: parrent
+all: parent2
 
-parrent:
-	gcc parrent.c -o parrent -lrt
-run:
-	./parrent $(arg)
+parent2:
+	gcc parent.c -o parent2 -lrt
+run: parent2
+	./parent2 $(arg)
 clean:
-	rm parrent
+	rm parent2
