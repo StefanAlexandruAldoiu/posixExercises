@@ -1,11 +1,11 @@
-all: parrent child
+all: parent3 child
 
-parrent:
-	gcc parrent.c -o parrent -lrt
+parent3:
+	gcc parent.c -o parent3 -lrt
 child:
 	gcc child.c -o child -lrt
 run:
-	./parrent
+	./parent3
 clean:
-	rm parrent
+	rm parent3
 	rm child
